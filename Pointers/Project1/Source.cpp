@@ -59,8 +59,27 @@ void ex_5()
 	for (int i = 0; i < 3; ++i) {
 		std::cout << p[i] << std::endl;
 	}
+	std::cout << "\n" << std::endl;
 }
 
+void ex_6(int *p)
+{
+	int result = 0;
+	for (int i=0; i < 3; i++)
+	{
+		result += *(p+i);
+	}
+	std::cout << "result: " << result << std::endl;
+}
+
+void ex_7(const char *pointer)
+{
+	while (*pointer != '\0') //size en aleman es mierda
+	{
+		std::cout << *pointer << std::endl;
+		*(pointer++);
+	}
+}
 
 
 int main()
@@ -74,6 +93,15 @@ int main()
 	ex_3();
 	ex_4();
 	ex_5();
+
+	int array[3] = { 1, 2, 3 };
+	int *pointer = array;
+	ex_6(pointer);
+
+	const char string[] = "Hello World of pointers";
+	const char *pts = string;
+	ex_7(pts);
+
 
 	system("pause");
 		return 0;
