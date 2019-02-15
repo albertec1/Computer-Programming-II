@@ -42,7 +42,8 @@ void ex_4()
 {
 	std::cout << "exercise 4" << std::endl;
 
-	int vec[3] = { 1, 2, 3 };	int *ptr1 = &vec[0];
+	int vec[3] = { 1, 2, 3 };
+	int *ptr1 = &vec[0];
 	std::cout << ptr1 << std::endl;
 	std::cout << *ptr1 << std::endl;
 
