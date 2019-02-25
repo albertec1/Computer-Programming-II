@@ -77,7 +77,7 @@ int main()
 {
 	//ex1();
 	//ex3();
-	//ex4();
+	ex4();
 
 	system("pause");
 	return 0;
