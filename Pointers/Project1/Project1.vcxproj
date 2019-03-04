@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Homework.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="ConstAndRefs.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
