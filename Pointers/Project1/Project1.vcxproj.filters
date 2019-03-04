@@ -24,5 +24,8 @@
     <ClCompile Include="ConstAndRefs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Class-Stuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
